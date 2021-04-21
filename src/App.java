@@ -22,8 +22,22 @@ public class App {
         }
     }
 
+    static void three() {
+        int num = 4;
+        for (int i = 1; i <= num; i++) {
+            for (int j = i; j <= num; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 1; k < (i * 2); k++) {
+                System.out.print("*");
+            }
+            System.out.print("\n");
+        }
+        System.out.println("-----------");
+    }
+
     public static void main(String[] args) throws Exception {
-        one();
-        two();
+        three();
     }
 }
