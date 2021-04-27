@@ -1,4 +1,4 @@
-public class App {
+public class Assignment1 {
 
     static void one() {
         int i = 0;
